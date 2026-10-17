@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ntokza | Professional Website Templates</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'sans-serif'] },
+          colors: {
+            primary: { 50: '#eff6ff', 100: '#dbeafe', 500: '#3b82f6', 600: '#2563eb', 700: '#1d4ed8' }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sans bg-gray-50 text-gray-800">
+  <div class="min-h-screen">
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-100">
+      <div class="max-w-5xl mx-auto px-4 py-6 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <div class="w-9 h-9 bg-primary-600 rounded-lg flex items-center justify-center">
+            <span class="text-white font-bold">N</span>
+          </div>
+          <span class="font-bold text-xl">Ntokza</span>
+        </div>
+        <p class="text-sm text-gray-500">Professional Website Templates</p>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="py-16 text-center">
+      <div class="max-w-3xl mx-auto px-4">
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-4">Website Templates for Fiverr</h1>
+        <p class="text-lg text-gray-600 mb-8">Clean, modern, and fully responsive designs ready for clients.</p>
+      </div>
+    </section>
+
+    <!-- Templates Grid -->
+    <section class="pb-20">
+      <div class="max-w-5xl mx-auto px-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Template 1 -->
+        <a href="templates/01-business-landing/" class="block bg-white rounded-2xl border border-gray-100 overflow-hidden hover:shadow-lg transition group">
+          <div class="h-40 bg-gradient-to-br from-primary-500 to-primary-700 flex items-center justify-center">
+            <span class="text-white text-lg font-semibold">Business Landing</span>
+          </div>
+          <div class="p-5">
+            <h3 class="font-bold text-lg group-hover:text-primary-600 transition">Business Landing Page</h3>
+            <p class="text-sm text-gray-500 mt-1">Hero, features, pricing, testimonials & contact form</p>
+          </div>
+        </a>
+
+        <!-- Template 2 -->
+        <a href="templates/02-portfolio/" class="block bg-white rounded-2xl border border-gray-100 overflow-hidden hover:shadow-lg transition group">
+          <div class="h-40 bg-gradient-to-br from-gray-700 to-gray-900 flex items-center justify-center">
+            <span class="text-white text-lg font-semibold">Portfolio</span>
+          </div>
+          <div class="p-5">
+            <h3 class="font-bold text-lg group-hover:text-primary-600 transition">Portfolio Website</h3>
+            <p class="text-sm text-gray-500 mt-1">Coming soon – personal & freelancer portfolio</p>
+          </div>
+        </a>
+
+        <!-- Template 3 -->
+        <a href="templates/03-service-website/" class="block bg-white rounded-2xl border border-gray-100 overflow-hidden hover:shadow-lg transition group">
+          <div class="h-40 bg-gradient-to-br from-emerald-500 to-teal-700 flex items-center justify-center">
+            <span class="text-white text-lg font-semibold">Service Site</span>
+          </div>
+          <div class="p-5">
+            <h3 class="font-bold text-lg group-hover:text-primary-600 transition">Service Website</h3>
+            <p class="text-sm text-gray-500 mt-1">Coming soon – service-based business site</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <footer class="border-t border-gray-200 py-8 text-center text-sm text-gray-500">
+      © 2026 Ntokza · Built for professional Fiverr work
+    </footer>
+  </div>
+</body>
+</html>
